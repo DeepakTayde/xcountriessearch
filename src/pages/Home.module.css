@@ -1,0 +1,22 @@
+.inputContainer {
+  display: flex;
+    background: rgb(203, 202, 202);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.inputContainer> input{
+  width: 30vw;
+  padding: 5px;
+}
+
+.countriesWrapper {
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+}
+
+

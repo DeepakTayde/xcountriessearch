@@ -1,0 +1,31 @@
+.countriesContainer{
+              display: flex;
+              flex-wrap: wrap;
+              gap: 10px;
+              align-items: center;
+              justify-content: center;
+}
+
+.countryCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    gap: 5px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    padding-top:5px;
+}
+
+.countryFlag{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.countryCard h2{
+    font-size: 16px;
+}
