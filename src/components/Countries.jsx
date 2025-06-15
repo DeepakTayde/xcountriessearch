@@ -16,9 +16,8 @@ const Countries = () => {
   }, []);
 
   const filteredCountries = countriesData.filter((country) =>
-    country.name.toLowerCase().includes(searchQuery.toLowerCase())
+    country.common.toLowerCase().includes(searchQuery.toLowerCase())
   );
-
 
   return (
     <div className='countriesContainer'>
@@ -33,10 +32,9 @@ const Countries = () => {
       <div className='countriesWrapper'>
         {filteredCountries.map((item, index) => (
           <CountryCard
-            name={item.name}
-            flag={item.flag}
-            abbr={item.abbr}
-            key={`${item.abbr}-${item.name}-${index}`}
+            name={item.common}
+            flag={item.png}
+            key={`${item.common}-${index}`}
           />
         ))}
       </div>

@@ -28,6 +28,8 @@ max-width: 100%;
   gap: 10px;
   align-items: center;
   justify-content: center;
+  max-width: calc(9*160px);
+  margin: 0 auto;
 }
 
 .countryCard {
