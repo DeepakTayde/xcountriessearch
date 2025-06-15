@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from  './Countries.module.css'
+import './Countries.css'
 
 const CountryCard = ({name, flag, abbr}) => {
   return (
      <div
-     className={styles.countryCard}
+     className='countryCard'
 
     >
-      <img src={flag} alt={`flag of ${name}`} className={styles.countryFlag} loading='lazy'/>
+      <img src={flag} alt={`flag of ${name}`} className='countryFlag' loading='lazy'/>
       <h2>{name}</h2>
     </div>
   )
